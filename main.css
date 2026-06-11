@@ -1,0 +1,24 @@
+.welcome {
+	font-family: sextape;
+	font-size: 100%;
+}
+
+.smol-text {
+	font-family: fira code;
+	font-size: 20%;
+}
+
+@font-face {
+	font-family: fira code;
+	src: url(./fonts/FiraCode.ttf);
+}
+
+@font-face {
+	font-family: sextape;
+	src: url(./fonts/SextapeRegular.ttf);
+}
+
+@font-face {
+	font-family: vhs;
+	src: url(./fonts/vhs.ttf);
+}
