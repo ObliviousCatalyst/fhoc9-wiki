@@ -30,10 +30,12 @@
 		<script>
 			const changelog = document.getElementById("changelog")
 			let mdText
-			fetch("changelog.md").then((mdText) => {
-				console.log(mdText)
+			fetch("changelog.md").then((promise) => {
+				promise.then((mdText) => {
+					console.log(mdText)
 				let mdNode = document.createTextNode(mdText)
 				changelog.appendChild(mdNode)
+				})
 			})
 			
 		</script>
