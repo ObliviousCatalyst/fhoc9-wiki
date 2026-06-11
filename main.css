@@ -7,6 +7,8 @@ html,body {
 #titlecard {
 	display: flex;
 	flex-direction: row;
+	height: 10vh;
+	width: 80%;
 }
 
 .welcome {
