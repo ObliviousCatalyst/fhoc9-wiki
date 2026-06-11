@@ -7,8 +7,8 @@ html,body {
 #titlecard {
 	display: flex;
 	flex-direction: row;
-	height: 20vh;
-	width: 80%;
+	height: 20%;
+	width: 100%;
 	align-content: baseline;
 }
 
