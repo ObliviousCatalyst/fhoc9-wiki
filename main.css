@@ -1,3 +1,14 @@
+html,body {
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+
+#titlecard {
+	display: flex;
+	flex-direction: row;
+}
+
 .welcome {
 	font-family: sextape;
 	font-size: 100%;
