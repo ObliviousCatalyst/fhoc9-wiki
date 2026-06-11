@@ -22,24 +22,16 @@
 			</div>
 		</div>
 		<div id="changlog-div">
-			<md id="changelog">
-				#changelog
-			</md>
-			<iframe src="changelog.md" frameborder="0"></iframe>
-			<p>placeholder</p>
-		</div>
-		<script src="https://cdn.jsdelivr.net/gh/MarketingPipeline/Markdown-Tag/markdown-tag.js"></script>
-		<script>
-			const changelog = document.getElementById("changelog")
-			let mdText
-			fetch("changelog.md").then((promise) => {
-				promise.then((mdText) => {
-					console.log(mdText)
-					let mdNode = document.createTextNode(mdText)
-					changelog.appendChild(mdNode)
-				})
-			})
 			
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+		<script>
+			fetch("changelog.md")      // The path to the raw Markdown file
+				.then(response => response.blob())  // Unwrap to a blob...
+				.then(blob => blob.text())          // ...then to raw text...
+				.then(markdown => {                 // ...then pass the raw text into marked.parse
+					document.getElementById("changlog-div").innerHTML = marked.parse(markdown);
+				});
 		</script>
 	</body>
 </html>
