@@ -17,13 +17,14 @@ html,body {
 .welcome {
 	font-family: sextape;
 	font-size: 500%;
-	height: 100%;
+	margin: 0%;
 }
 
 .smol-text {
 	font-family: fira code;
 	font-size: 20%;
-	height: 100%;
+	margin: 0%;
+	margin-bottom: 1%;
 }
 
 @font-face {
