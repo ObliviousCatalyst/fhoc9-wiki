@@ -9,6 +9,7 @@ html,body {
 	flex-direction: row;
 	height: 50vh;
 	width: 80%;
+	align-content: baseline;
 }
 
 .welcome {
