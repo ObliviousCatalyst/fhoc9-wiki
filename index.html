@@ -9,5 +9,33 @@
 		<div id="titlecard">
 			<h1 class="welcome">welcome to the</h1><p class="smol-text">unofficial</p><h1 class="welcome">FHoC9 wiki</h1>
 		</div>
+		<p>this wiki was made by Oblivious Catalyst with help from TrexRobot</p>
+		<div class="nav">
+			<div class="inner-grid">
+				<h3 id="nav-head">nav:</h3>
+				<button class="nav-btn" id="story-btn">story</button>
+				<button class="nav-btn" id="enemy-btn">enemy behaviors</button>
+				<button class="nav-btn" id="secrets-btn">secrets/easter eggs</button>
+				<button class="nav-btn" id="act2-btn">act 2 speculation</button>
+				<button class="nav-btn" id="VIam-btn">beating 6am</button>
+				<button class="nav-btn" id="form-btn">suggestion box</button>
+			</div>
+		</div>
+		<div id="changlog-div">
+			<md id="changelog">
+				#changelog
+			</md>
+		</div>
+		<script src="https://cdn.jsdelivr.net/gh/MarketingPipeline/Markdown-Tag/markdown-tag.js"></script>
+		<script>
+			const changelog = document.getElementById("changelog")
+			let mdText
+			fetch("changelog.md").then((mdText) => {
+				console.log(mdText)
+				let mdNode = document.createTextNode(mdText)
+				changelog.appendChild(mdNode)
+			})
+			
+		</script>
 	</body>
 </html>

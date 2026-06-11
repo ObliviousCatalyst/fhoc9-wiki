@@ -1,17 +1,21 @@
 html,body {
 	display: flex;
+	flex-direction: column;
 	width: 100%;
 	height: 100%;
 	margin: 0%;
+	background-color: black;
+	color: white;
 }
 
 #titlecard {
 	display: flex;
 	flex-direction: row;
-	height: 20%;
+	height: 10%;
 	width: 100%;
 	align-items: flex-end;
 	padding: 2%;
+	color: #ff9000;
 }
 
 .welcome {
@@ -21,10 +25,67 @@ html,body {
 }
 
 .smol-text {
-	font-family: fira code;
-	font-size: 20%;
+	font-size: 50%;
 	margin: 0%;
 	margin-bottom: 1%;
+}
+
+p {
+	font-family: fira code;
+	margin: 1%;
+}
+
+.nav {
+	background-color: gray;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.inner-grid {
+	display: grid;
+	grid-template-areas: 
+	"0 0 0 0"
+	"a b c d"
+	"e e f f";
+	gap: 1vh;
+	padding: 1%;
+}
+
+.nav-btn {
+	background-color: black;
+	color: #ff9000;
+	border-color: #ff9000;
+	flex: 1;
+}
+
+#nav-head {
+	grid-area: 0;
+	font-family: vhs;
+	padding-left: 2%;
+}
+
+#story-btn {
+	grid-area: a;
+}
+
+#enemy-btn {
+	grid-area: b;
+}
+
+#secrets-btn {
+	grid-area: c;
+}
+
+#act2-btn {
+	grid-area: d;
+}
+
+#VIam-btn {
+	grid-area: e;
+}
+
+#form-btn {
+	grid-area: f;
 }
 
 @font-face {
