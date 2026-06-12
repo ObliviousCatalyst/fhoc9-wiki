@@ -50,7 +50,9 @@ h2,h3,h4,h5 {
 	grid-template-areas: 
 	"0 0 0 0"
 	"a b c d"
-	"e e f f";
+	"e e f f"
+	". . . ."
+	"g g . .";
 	gap: 1vh;
 	padding: 1%;
 }
@@ -90,6 +92,10 @@ h2,h3,h4,h5 {
 
 #form-btn {
 	grid-area: f;
+}
+
+#download-btn {
+	grid-area: g;
 }
 
 @font-face {
