@@ -6,6 +6,7 @@ html,body {
 	margin: 0%;
 	background-color: black;
 	color: white;
+	font-family: fira code;
 }
 
 #titlecard {
@@ -31,8 +32,11 @@ html,body {
 }
 
 p {
-	font-family: fira code;
 	margin: 1%;
+}
+
+h2,h3,h4,h5 {
+	font-family: vhs;
 }
 
 .nav {
