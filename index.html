@@ -22,7 +22,7 @@
 				<button class="nav-btn" id="download-btn">download game files</button>
 			</div>
 		</div>
-		<div id="changlog-div">
+		<div id="changelog-div">
 			<h2>recent site changes:</h2>
 			<md id="changelog"></md>
 		</div>
@@ -32,7 +32,7 @@
 				.then(response => response.blob())  // Unwrap to a blob...
 				.then(blob => blob.text())          // ...then to raw text...
 				.then(markdown => {                 // ...then pass the raw text into marked.parse
-					document.getElementById("changlog").innerHTML = marked.parse(markdown);
+					document.getElementById("changelog").innerHTML = marked.parse(markdown);
 				});
 		</script>
 	</body>
