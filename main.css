@@ -100,6 +100,7 @@ h2,h3,h4,h5 {
 
 #changelog-div {
 	color: yellow;
+	margin: 2%;
 }
 
 @font-face {
