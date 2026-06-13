@@ -39,6 +39,10 @@ h2,h3,h4,h5 {
 	font-family: vhs;
 }
 
+button {
+	font-family: fira code;
+}
+
 .nav {
 	background-color: gray;
 	margin-left: 5%;
