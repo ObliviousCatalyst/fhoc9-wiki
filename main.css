@@ -1,3 +1,19 @@
+@font-face {
+	font-family: "fira code";
+	src: url(./fonts/FiraCode.ttf);
+}
+
+@font-face {
+	font-family: "sextape";
+	src: url(./fonts/SextapeRegular.ttf);
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: "vhs";
+	src: url(./fonts/vhs.ttf);
+}
+
 html,body {
 	display: flex;
 	flex-direction: column;
@@ -18,6 +34,7 @@ html,body {
 	align-items: flex-end;
 	padding: 2%;
 	color: #ff9000;
+	font-weight: 100;
 }
 
 .welcome {
@@ -38,6 +55,7 @@ p {
 
 h2,h3,h4,h5 {
 	font-family: vhs;
+	font-weight: 100;
 }
 
 button {
@@ -106,19 +124,4 @@ button {
 #changelog-div {
 	color: yellow;
 	margin: 2%;
-}
-
-@font-face {
-	font-family: fira code;
-	src: url(./fonts/FiraCode.ttf);
-}
-
-@font-face {
-	font-family: sextape;
-	src: url(./fonts/SextapeRegular.ttf);
-}
-
-@font-face {
-	font-family: vhs;
-	src: url(./fonts/vhs.ttf);
 }
