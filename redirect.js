@@ -18,9 +18,6 @@ buttons[4].onclick = () => {
 buttons[5].onclick = () => {
 	location.href = `${site}/sugestions`
 }
-buttons[5].onclick = () => {
-	location.href = `${site}/sugestions`
-}
 buttons[6].onclick = () => {
 	location.href = `${site}/downlaods`
 }
