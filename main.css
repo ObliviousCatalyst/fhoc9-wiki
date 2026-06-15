@@ -25,6 +25,7 @@ html,body {
 	color: white;
 	font-family: fira code;
 	font-weight: 400;
+	align-items: center;
 }
 
 #titlecard {
