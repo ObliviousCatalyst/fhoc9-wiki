@@ -150,6 +150,7 @@ button {
 .image-block {
 	display: flex;
 	flex-direction: row;
+	margin: 10vh;
 }
 
 .img-collum {
