@@ -159,4 +159,6 @@ button {
 .us-img-colum {
 	display: flex;
 	flex-direction: column;
+	border: 5vh;
+	border-color: transparent;
 }
