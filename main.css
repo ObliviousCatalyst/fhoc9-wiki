@@ -155,11 +155,11 @@ button {
 
 .img-collum {
 	display: grid;
-	grid-template-columns: 1;
+	grid-template-columns: repeat(1,1fr);
 }
 .us-img-colum {
 	display: grid;
-	grid-template-columns: 1;
+	grid-template-columns: repeat(1, 1fr);
 	gap: 5vh;
 	flex-direction: column;
 	border: 5vh;
