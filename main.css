@@ -60,6 +60,14 @@ h2,h3,h4,h5 {
 	font-weight: 100;
 }
 
+h2 {
+	font-size: 150%;
+}
+
+h3 {
+	font-size: 120%;
+}
+
 button {
 	font-family: fira code;
 	background-color: #ff9000;
