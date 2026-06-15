@@ -89,7 +89,8 @@ button {
 	color: #ff9000;
 	border-color: #ff9000;
 	flex: 1;
-	border-width: 5vh;
+	border-style: solid;
+	border-width: 0.25vh;
 }
 
 #nav-head {
