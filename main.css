@@ -146,3 +146,17 @@ button {
 	color: yellow;
 	margin-left: 20svh;
 }
+
+.image-block {
+	display: flex;
+	flex-direction: row;
+}
+
+.img-collum {
+	display: flex;
+	flex-direction: column;
+}
+.us-img-colum {
+	display: flex;
+	flex-direction: column;
+}
