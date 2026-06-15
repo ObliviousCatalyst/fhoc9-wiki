@@ -153,11 +153,13 @@ button {
 }
 
 .img-collum {
-	display: flex;
-	flex-direction: column;
+	display: grid;
+	grid-template-columns: 1;
 }
 .us-img-colum {
-	display: flex;
+	display: grid;
+	grid-template-columns: 1;
+	gap: 5vh;
 	flex-direction: column;
 	border: 5vh;
 	border-color: transparent;
