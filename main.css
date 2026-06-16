@@ -170,3 +170,7 @@ button {
 	border: 5vh;
 	border-color: transparent;
 }
+
+#enemy-img {
+	width: 60%;
+}
