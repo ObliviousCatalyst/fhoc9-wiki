@@ -82,18 +82,6 @@ button {
 	margin-right: 5%;
 }
 
-.inner-grid {
-	display: grid;
-	grid-template-areas: 
-	"0 0 0 0"
-	"a b c d"
-	"e e f f"
-	". . . ."
-	"g g . .";
-	gap: 1vh;
-	padding: 1%;
-}
-
 .nav-btn {
 	background-color: black;
 	color: #ff9000;
@@ -101,45 +89,6 @@ button {
 	flex: 1;
 	border-style: solid;
 	border-width: 0.25vh;
-}
-
-#nav-head {
-	grid-area: 0;
-	font-family: vhs;
-	padding-left: 2%;
-}
-
-#story-btn {
-	grid-area: a;
-}
-
-#enemy-btn {
-	grid-area: b;
-}
-
-#secrets-btn {
-	grid-area: c;
-}
-
-#act2-btn {
-	grid-area: d;
-}
-
-#VIam-btn {
-	grid-area: e;
-}
-
-#form-btn {
-	grid-area: f;
-}
-
-#download-btn {
-	grid-area: g;
-}
-
-#changelog-div {
-	color: yellow;
-	margin: 2%;
 }
 
 .text-block {
@@ -155,20 +104,6 @@ button {
 	display: flex;
 	flex-direction: row;
 	margin: 10vh;
-}
-
-.img-collum {
-	display: grid;
-	grid-template-columns: repeat(1,1fr);
-}
-
-.us-img-collum {
-	display: grid;
-	grid-template-columns: repeat(1, 1fr);
-	gap: 5vh;
-	flex-direction: column;
-	border: 5vh;
-	border-color: transparent;
 }
 
 #enemy-img {

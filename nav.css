@@ -1,0 +1,50 @@
+#nav-grid {
+	display: grid;
+	grid-template-areas:
+		"0 0 0 0"
+		"a b c d"
+		"e e f f"
+		". . . ."
+		"g g . .";
+	gap: 1vh;
+	padding: 1%;
+}
+
+#nav-head {
+	grid-area: 0;
+	font-family: vhs;
+	padding-left: 2%;
+}
+
+#story-btn {
+	grid-area: a;
+}
+
+#enemy-btn {
+	grid-area: b;
+}
+
+#secrets-btn {
+	grid-area: c;
+}
+
+#act2-btn {
+	grid-area: d;
+}
+
+#VIam-btn {
+	grid-area: e;
+}
+
+#form-btn {
+	grid-area: f;
+}
+
+#download-btn {
+	grid-area: g;
+}
+
+#changelog-div {
+	color: yellow;
+	margin: 2%;
+}
