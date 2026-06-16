@@ -142,6 +142,10 @@ button {
 	margin: 2%;
 }
 
+.text-block {
+	width: 80%;
+}
+
 .quote-block {
 	color: yellow;
 	margin-left: 20svh;
