@@ -112,3 +112,8 @@ button {
 .lone-image {
 	width: 60%;
 }
+
+.footer-box {
+	min-height: 30vh;
+	height: auto;
+}
