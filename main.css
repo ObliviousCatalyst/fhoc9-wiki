@@ -35,8 +35,11 @@ html,body {
 	width: 100%;
 	align-items: flex-end;
 	padding: 2%;
-	color: #ff9000;
+	/* color: #ff9000; */
+	color: transparent;
 	font-weight: 100;
+	background-image: linear-gradient(#ff9000,#ff9999);
+	background-clip: text;
 }
 
 h1 {
