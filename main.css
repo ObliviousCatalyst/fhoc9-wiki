@@ -38,7 +38,7 @@ html,body {
 	/* color: #ff9000; */
 	color: transparent;
 	font-weight: 100;
-	background-image: linear-gradient(#ff9000,#ff9999);
+	background-image: linear-gradient(#ff9000, #ff9999);
 	background-clip: text;
 }
 
@@ -46,6 +46,9 @@ h1 {
 	font-family: sextape;
 	font-size: 500%;
 	margin: 0%;
+	color: transparent;
+	background-image: linear-gradient(white, gray);
+	background-clip: text;
 }
 
 .smol-text {
@@ -53,6 +56,27 @@ h1 {
 	margin: 0%;
 	margin-bottom: 1%;
 }
+
+/* 
+p, a, b, h1, h2, h3, h4, h5, h6, pre {
+	color: transparent;
+	background-image: linear-gradient(white 80%, black);
+	background-clip: text;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+hr {
+	/* color: transparent; 
+	border-color: transparent;
+	background-image: linear-gradient(white 80%);
+	/* background-clip: text; 
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	/* background-clip: border-box; 
+} */
 
 p {
 	margin-left: 10%;
