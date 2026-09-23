@@ -28,20 +28,6 @@ html,body {
 	align-items: center;
 }
 
-#titlecard {
-	display: flex;
-	flex-direction: row;
-	height: 10%;
-	width: 100%;
-	align-items: flex-end;
-	padding: 2%;
-	/* color: #ff9000; */
-	color: transparent;
-	font-weight: 100;
-	background-image: linear-gradient(#ff9000, #ff9999);
-	background-clip: text;
-}
-
 h1 {
 	font-family: sextape;
 	font-size: 500%;
@@ -49,6 +35,25 @@ h1 {
 	color: transparent;
 	background-image: linear-gradient(white, gray);
 	background-clip: text;
+}
+
+#titlecard {
+	display: flex;
+	flex-direction: row;
+	height: 10%;
+	width: 100%;
+	align-items: flex-end;
+	padding: 2%;
+	color: transparent;
+	font-weight: 100;
+	background-image: linear-gradient(#ff9000, #ff9999) !important;
+	background-clip: text;
+	flex-wrap: wrap;
+}
+
+.welcome {
+	background-image: inherit;
+	text-wrap: nowrap;
 }
 
 .smol-text {
