@@ -1,1 +1,2 @@
-tweaked the spacing and colors of the site 
+- tweaked the spacing and colors of the site 
+- slightly altered some page content (mostly fixing minor mistakes)
