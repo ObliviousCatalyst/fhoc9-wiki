@@ -29,7 +29,7 @@ html,body {
 }
 
 h1 {
-	font-family: sextape;
+	font-family: "sextape";
 	font-size: 500%;
 	margin: 0%;
 	color: transparent;
@@ -89,7 +89,7 @@ p {
 }
 
 h2,h3,h4,h5 {
-	font-family: vhs;
+	font-family: "vhs";
 	font-weight: 100;
 }
 
@@ -102,7 +102,7 @@ h3 {
 }
 
 button {
-	font-family: fira code;
+	font-family: "fira code";
 	background-color: #ff9000;
 	color: black;
 	border: 0px;
