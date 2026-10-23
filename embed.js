@@ -1,4 +1,4 @@
-import { marked } from "https://cdn.jsdelivr.net/npm/marked/marked.esm.js"
+import { marked } from "https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js"
 
 /**
  * get a md file
