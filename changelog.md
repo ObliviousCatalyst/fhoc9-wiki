@@ -1,2 +1,10 @@
-- tweaked the spacing and colors of the site 
-- slightly altered some page content (mostly fixing minor mistakes)
+- refactored code base (this change is not visible on the site)
+- edited some site content
+- fucked the navigation
+- unfucked the navigation
+- made it so that the nav box appears on other pages than just the home page
+- removed herobrine
+- fixed minor spelling mistakes
+- considered re-writing several pages
+- remembered i have other work to do
+- updated the changelog
