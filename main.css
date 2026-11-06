@@ -31,6 +31,7 @@ html,body {
 	font-family: fira code;
 	font-weight: 400;
 	align-items: center;
+	scrollbar-color: var(--neon-copper-orange) black;
 }
 
 h1 {
