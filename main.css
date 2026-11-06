@@ -52,7 +52,7 @@ h1 {
 	padding: 2%;
 	color: transparent;
 	font-weight: 100;
-	background-image: linear-gradient(#ff9000, #ff9999) !important;
+	background-image: linear-gradient(var(--neon-copper-orange), var(--faded-copper-orange)) !important;
 	background-clip: text;
 	flex-wrap: wrap;
 }
@@ -109,7 +109,7 @@ h3 {
 
 button {
 	font-family: "fira code";
-	background-color: #ff9000;
+	background-color: var(--neon-copper-orange);
 	color: black;
 	border: 0px;
 }
@@ -122,8 +122,8 @@ button {
 
 .nav-btn {
 	background-color: black;
-	color: #ff9000;
-	border-color: #ff9000;
+	color: var(--neon-copper-orange);
+	border-color: var(--neon-copper-orange);
 	flex: 1;
 	border-style: solid;
 	border-width: 0.25vh;
