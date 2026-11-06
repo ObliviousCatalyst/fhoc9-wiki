@@ -7,4 +7,5 @@
 - fixed minor spelling mistakes
 - considered re-writing several pages
 - remembered i have other work to do
+- fixed scrollbar colors
 - updated the changelog
