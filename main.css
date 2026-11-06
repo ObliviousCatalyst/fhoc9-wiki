@@ -15,6 +15,11 @@
 	src: url(./fonts/vhs.ttf);
 }
 
+:root {
+	--neon-copper-orange: #ff9000;
+	--faded-copper-orange: #ff9999;
+}
+
 html,body {
 	display: flex;
 	flex-direction: column;
